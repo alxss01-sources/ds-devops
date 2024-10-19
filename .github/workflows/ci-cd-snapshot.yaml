@@ -1,5 +1,5 @@
 name: Continuous Integration Snapshot
-run-name: Build started by ${{ github.actor }}
+run-name: Started by ${{ github.actor }}
 
 on:
     workflow_dispatch:
@@ -44,7 +44,7 @@ jobs:
             snyk-enabled: ${{ inputs.snyk-enabled }}
 
 
-    call_deploy:
+    call-deploy:
         needs: call-build
         uses: alxss01-reusable/devops-reusable/.github/workflows/java-deploy.yaml@main
         with:
