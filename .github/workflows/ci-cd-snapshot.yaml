@@ -37,11 +37,12 @@ concurrency:
 jobs:
     call-build:
         uses: alxss01-reusable/devops-reusable/.github/workflows/java-build.yaml@main
-
         with:
             sonar-cloud-enabled: ${{ inputs.sonar-cloud-enabled }}
             owasp-zap-enabled: ${{ inputs.owasp-zap-enabled }}
             snyk-enabled: ${{ inputs.snyk-enabled }}
+            organization: ${{ vars.SONAR_CLOUD_ORGANIZATION }}
+        secrets: inherit
 
 
     call-deploy:
