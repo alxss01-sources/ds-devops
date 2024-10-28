@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+guide.md
+nexus-publish.sh
+add-repo-nexus.sh

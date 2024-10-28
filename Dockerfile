@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY target/ds-devops.jar app.jar
 
+EXPOSE 8085
+
 ENTRYPOINT [ "java", "-jar", "app.jar" ]
