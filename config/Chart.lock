@@ -1,6 +1,0 @@
-dependencies:
-- name: app
-  repository: http://localhost:8081/repository/helm-base
-  version: 0.1.0
-digest: sha256:40fba0a10d58f8e5e7a460ca2458c88eab01174152284aca1948ed23b481bbc9
-generated: "2024-10-28T20:31:50.235969897-03:00"
