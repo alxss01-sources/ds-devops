@@ -6,4 +6,4 @@ appVersion: 1.16.0
 dependencies:
   - name: app
     version: 0.1.0
-    repository: "http://localhost:8081/repository/helm-base"
+    repository: "http://192.168.0.105:8081/repository/helm-base"
