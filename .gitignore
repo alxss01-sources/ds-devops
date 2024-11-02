@@ -4,6 +4,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+argo-server-deployment.yaml
+cfg-init.yaml
+cfg.yaml
+
 ### STS ###
 .apt_generated
 .classpath
