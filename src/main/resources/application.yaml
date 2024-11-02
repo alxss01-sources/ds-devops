@@ -1,2 +1,9 @@
 server:
   port: 8085
+
+logging:
+  level:
+    root: INFO
+
+  file:
+    name: logs/app.log

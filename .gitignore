@@ -7,7 +7,8 @@ target/
 argo-server-deployment.yaml
 cfg-init.yaml
 cfg.yaml
-
+./logs
+/logs
 ### STS ###
 .apt_generated
 .classpath
