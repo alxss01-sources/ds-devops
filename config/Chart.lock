@@ -1,6 +1,6 @@
 dependencies:
 - name: app
   repository: http://192.168.0.105:8081/repository/helm-base
-  version: 0.1.0
-digest: sha256:a744514c63ec16d19e6d19562993557a6e51f58a19b6348b8912a5364c34e5c7
-generated: "2024-11-02T07:25:56.964993999-03:00"
+  version: 0.1.1
+digest: sha256:8db8b35d68fffd0ba386d8be94a37e0184073a4ef9e9fbe9da471eba02b9f94c
+generated: "2024-11-02T07:34:43.952230064-03:00"
